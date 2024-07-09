@@ -222,3 +222,16 @@ header a {
     border-radius: 5px;
     font-weight: bold;
 }
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 32px 150px;
+    background-color: rgba(13, 19, 33, 0.03);
+    align-items: center;
+}
+
+#socials {
+    display: flex;
+    gap: 24px;
+}
