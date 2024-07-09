@@ -159,3 +159,66 @@ header a {
 .target-card a {
     color: black;
 }
+
+#next-target {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    margin: 0px 150px 80px 150px;
+} 
+
+.next-target-card {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    border: 1px solid lightgray;
+    padding: 32px;
+    border-radius: 10px;
+}
+
+.next-target-content a {
+    color: black;
+}
+
+#support {
+    margin: 0px 150px 80px 150px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    padding: 64px 48px;
+    background-image: url('assets/handshake.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    border-radius: 10px;
+}
+
+#support p {
+    text-align: center;
+}
+
+#support #input-container {
+    display: flex;
+    gap: 16px;
+}
+
+#support input {
+    padding: 12px;
+    color: lightgray;
+    width: 548px;
+    border: 0;
+    border-radius: 5px;
+}
+
+#support button {
+    background-color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
