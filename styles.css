@@ -27,7 +27,7 @@ header a {
     justify-content: center;
     align-items: center;
     height: 652px;
-    background-image: url('assets/Hero-bg.png');
+    background-image: linear-gradient(to right, rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url('assets/Hero-bg.png');
 }
 
 #hero {
@@ -62,6 +62,10 @@ header a {
     padding: 80px 97px;
     background-color: rgba(13, 19, 33, 0.02);
     border-radius: 5px;
+}
+
+#why-description {
+    text-align: center;
 }
 
 .why-card {
@@ -158,6 +162,7 @@ header a {
 
 .target-card a {
     color: black;
+    font-weight: bold;
 }
 
 #next-target {
@@ -180,6 +185,7 @@ header a {
 
 .next-target-content a {
     color: black;
+    font-weight: bold;
 }
 
 #support {
@@ -190,7 +196,7 @@ header a {
     align-items: center;
     gap: 32px;
     padding: 64px 48px;
-    background-image: url('assets/handshake.jpg');
+    background-image: linear-gradient(to right, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('assets/handshake.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -209,7 +215,6 @@ header a {
 
 #support input {
     padding: 12px;
-    color: lightgray;
     width: 548px;
     border: 0;
     border-radius: 5px;
@@ -221,6 +226,7 @@ header a {
     border: none;
     border-radius: 5px;
     font-weight: bold;
+    cursor: pointer;
 }
 
 footer {
